@@ -22,14 +22,14 @@
     ],
     "require": {
         "php" : ">=5.5.0",
-        "yiisoft/yii2": "*",
-        "bower-asset/components-underscore": "*",
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/components-underscore": "^1.8.3",
         "bower-asset/swagger-ui": "2.2.6"
     },
     "autoload": {
-        "psr-4": {
-             "veksa\\swagger\\yii2\\": "src"
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "extra": {
         "branch-alias": {
