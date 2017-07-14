@@ -1,6 +1,6 @@
 <?php
 
-namespace Drdim\Yii\Swagger;
+namespace Drdim\Yii\Swagger\Assets;
 
 use yii\web\AssetBundle;
 

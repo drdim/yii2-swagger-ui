@@ -1,6 +1,6 @@
 <?php
 
-namespace Drdim\Yii\Swagger;
+namespace Drdim\Yii\Swagger\Assets;
 
 use yii\web\AssetBundle;
 
@@ -34,10 +34,4 @@ class SwaggerUiAsset extends AssetBundle
         'drdim\swagger\yii2\assets\JquerySwaggerUiAsset',
         'drdim\swagger\yii2\assets\UnderscoreAsset'
     ];
-
-    public function registerAssetFiles($view)
-    {
-        SwaggerUiAsset::register($view);
-        parent::registerAssetFiles($view);
-    }
 }

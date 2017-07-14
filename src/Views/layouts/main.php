@@ -1,4 +1,9 @@
 <?php
+
+use Drdim\Yii\Swagger\Assets\SwaggerUiAsset;
+
+SwaggerUiAsset::register($this);
+
 /**
  * @var $content string
  */
