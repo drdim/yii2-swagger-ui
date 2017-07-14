@@ -1,5 +1,6 @@
-<?
-namespace veksa\swagger\yii2\assets;
+<?php
+
+namespace Drdim\Yii\Swagger;
 
 use yii\web\AssetBundle;
 
@@ -30,7 +31,13 @@ class SwaggerUiAsset extends AssetBundle
     ];
 
     public $depends = [
-        'veksa\swagger\yii2\assets\JquerySwaggerUiAsset',
-        'veksa\swagger\yii2\assets\UnderscoreAsset'
+        'drdim\swagger\yii2\assets\JquerySwaggerUiAsset',
+        'drdim\swagger\yii2\assets\UnderscoreAsset'
     ];
+
+    public function registerAssetFiles($view)
+    {
+        SwaggerUiAsset::register($view);
+        parent::registerAssetFiles($view);
+    }
 }

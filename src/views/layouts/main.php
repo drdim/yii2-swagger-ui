@@ -1,11 +1,7 @@
-<?
-use veksa\swagger\yii2\SwaggerUiAsset;
-
+<?php
 /**
  * @var $content string
  */
-
-SwaggerUiAsset::register($this);
 $this->beginPage();
 ?>
 <!DOCTYPE html>

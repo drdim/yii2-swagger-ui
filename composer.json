@@ -1,5 +1,5 @@
 {
-    "name": "veksa/yii2-swagger-ui",
+    "name": "drdim/yii2-swagger-ui",
     "description": "Yii2 Swagger UI",
     "keywords": [
         "php",
@@ -9,17 +9,13 @@
         "extension",
         "component"
     ],
-    "homepage": "https://github.com/veksa/yii2-swagger-ui",
+    "homepage": "https://github.com/drdim/yii2-swagger-ui",
     "type": "yii2-extension",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Alex Khijnij",
-            "email": "admin@devblog.pro",
-            "homepage": "https://devblog.pro",
-            "role": "Developer"
-        }
-    ],
+    "support": {
+        "issues": "https://github.com/drdim/yii2-swagger-ui/issues",
+        "source": "https://github.com/cebe/yii2-swagger-ui"
+    },
     "require": {
         "php" : ">=5.5.0",
         "yiisoft/yii2": "^2.0",
@@ -27,9 +23,9 @@
         "bower-asset/swagger-ui": "2.2.6"
     },
     "autoload": {
-        "classmap": [
-            "src/"
-        ]
+        "psr-4": {
+            "Drdim\\Yii\\Swagger\\": "src"
+        }
     },
     "extra": {
         "branch-alias": {

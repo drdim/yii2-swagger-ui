@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-I accept contributions via Pull Requests on [Github](https://github.com/veksa/yii2-swagger-ui).
+I accept contributions via Pull Requests on [Github](https://github.com/drdim/yii2-swagger-ui).
 
 
 ## Pull Requests
