@@ -14,13 +14,12 @@
     "license": "MIT",
     "support": {
         "issues": "https://github.com/drdim/yii2-swagger-ui/issues",
-        "source": "https://github.com/cebe/yii2-swagger-ui"
+        "source": "https://github.com/drdim/yii2-swagger-ui"
     },
     "require": {
         "php" : ">=5.5.0",
         "yiisoft/yii2": "^2.0",
-        "bower-asset/components-underscore": "^1.8.3",
-        "bower-asset/swagger-ui": "2.2.6"
+        "bower-asset/swagger-ui": "^3.0"
     },
     "autoload": {
         "psr-4": {
